@@ -6,6 +6,7 @@ const calcExpression = (expression) => {
     return result;
   } catch (error) {
     console.error(`Error: ${error}`);
+    alert(error.message)
     return 0;
   }
 }
