@@ -1,6 +1,6 @@
 let flag;
 
-function calcExpression(expression) {
+const calcExpression = (expression) => {
   try {
     const result = eval(expression);
     return result;
